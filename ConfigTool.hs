@@ -29,7 +29,9 @@ createNewPackage
             "license: ",license,"\n",
             "description: ",description,"\n",
             "author: ",author,"\n",
-            "library \n    ghc-options: -Wall\n"
+            "library \n    ghc-options: -Wall\n",
+            "    build-depends:",
+            "        GiveYouAHead"
             ]
         )
     writeFile (packageName ++ "/Setup.hs") (
