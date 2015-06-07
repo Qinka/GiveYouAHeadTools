@@ -5,7 +5,7 @@ module GYAHTool
 import System.IO
 import System.Directory
 import System.Environment
-
+--
 createNewPackage    ::  String
                     ->  String
                     ->  String
@@ -40,4 +40,3 @@ createNewPackage
                ]
 
         )
-
